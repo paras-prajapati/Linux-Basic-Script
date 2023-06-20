@@ -1,0 +1,14 @@
+# /bin/bash
+echo "---- Age check IN SHELL SCRIPT -----"
+echo "hi, user welcome to election-center"
+echo "what is your name"
+read name
+echo "what is your age"
+read age
+
+if [ $age -ge 18 ]
+then
+  echo "$name is eligible for vote: age is $age"
+else
+ echo "$name is not-eligible for vote: age is $age"
+ fi
